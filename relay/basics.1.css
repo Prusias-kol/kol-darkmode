@@ -1,0 +1,82 @@
+#monname {
+	font-weight: bold;
+}
+
+* {
+	background-color:383838;
+	color: white;
+}
+
+button.button, input.button {
+    border: 2px solid white;
+    background-color: #383838;
+    color: white;
+}
+
+.element {
+	mix-blend-mode:lighten
+}
+
+.spacer {
+    background-color: 383838!important;
+}
+
+.blueback TD IMG {
+    border: 3px outset white;
+    filter: invert(0);
+}
+
+.black {
+	color: white;
+}
+
+a, a>b, a:active, a:link, a:visited {
+	color: #306897 !important;
+}
+
+thead {
+	background-color: blue !important;
+}
+
+img {
+	filter: invert(1);
+	mix-blend-mode: lighten;
+	background-color: transparent;
+}
+
+body {
+	background-color:383838;
+}
+
+a.error {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.elementnone {
+	color: #000000;
+}
+
+.elementcold {
+	color: #0000ff;
+}
+
+.elementhot {
+	color: #ff0000;
+}
+
+.elementsleaze {
+	color: #8a2be2;
+}
+
+.elementspooky {
+	color: #808080;
+}
+
+.elementstench {
+	color: #008000;
+}
+
+.elementslime {
+	color: #006400;
+}
