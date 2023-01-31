@@ -38,6 +38,14 @@ a, a>b, a:active, a:link, a:visited {
 	background-color: transparent !important;
 }
 
+#tabs .tab, .tab .label, #tabs [class="tab unread"], [class="tab unread"] .label {
+	background-color: #4a4a4a;
+}
+
+#tabs [class="tab active"], [class="tab active"] .label {
+	background-color: gray;
+}
+
 img {
 	filter: invert(1);
 	mix-blend-mode: lighten;
