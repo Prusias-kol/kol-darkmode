@@ -3,7 +3,7 @@
 }
 
 * {
-	background-color:383838;
+	background-color: #383838;
 	color: white;
 }
 
@@ -18,7 +18,7 @@ button.button, input.button {
 }
 
 .spacer {
-    background-color: 383838!important;
+    background-color: #383838!important;
 }
 
 .blueback TD IMG {
@@ -34,8 +34,8 @@ a, a>b, a:active, a:link, a:visited {
 	color: #306897 !important;
 }
 
-thead {
-	background-color: blue !important;
+#tabs li {
+	background-color: transparent !important;
 }
 
 img {
@@ -45,7 +45,11 @@ img {
 }
 
 body {
-	background-color:383838;
+	background-color:#383838;
+}
+
+#fixedawesome {
+	background-color: transparent;
 }
 
 a.error {
