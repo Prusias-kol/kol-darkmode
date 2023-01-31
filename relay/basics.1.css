@@ -46,6 +46,11 @@ a, a>b, a:active, a:link, a:visited {
 	background-color: gray;
 }
 
+p.rcm {
+	background-color: black;
+	border: solid 1pt white;
+}
+
 img {
 	filter: invert(1);
 	mix-blend-mode: lighten;
