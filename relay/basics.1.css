@@ -1,68 +1,95 @@
-#monname {
-	font-weight: bold;
+/* This will turn the scrollbars dark*/
+:root {
+	color-scheme: dark;
 }
 
+/* Default background and text color */
 * {
 	background-color: #36393f;
 	color: white;
 }
 
+/* Buttons */
 button.button, input.button {
     border: 2px solid white;
     background-color: #36393f;
     color: white;
 }
 
+/* I cant remember what class="element" is used for */
 .element {
-	mix-blend-mode:lighten
+	mix-blend-mode: lighten;
 }
 
+/* Combat action bar spacer */
 .spacer {
-    background-color: #36393f!important;
+    background-color: #36393f !important;
 }
 
+/* Combat action bar images */
 .blueback TD IMG {
     border: 3px outset white;
     filter: invert(0);
 }
 
+/* make text in "black" classes white */
 .black {
 	color: white;
 }
 
+/* Color for links */
 a, a>b, a:active, a:link, a:visited {
 	color: #1ea4f4 !important;
 }
 
+/* Make all chat tab text backgrounds transparent by default */
 #tabs li {
 	background-color: transparent !important;
 }
 
+/* Chat tabs that aren't the active chat tab */
 #tabs .tab, .tab .label, #tabs [class="tab unread"], [class="tab unread"] .label {
 	background-color: #4a4a4a;
 }
 
+/* Active chat tab should be lighter */
 #tabs [class="tab active"], [class="tab active"] .label {
 	background-color: gray;
 }
 
+/* Combat action bar */
 p.rcm {
 	background-color: black;
 	border: solid 1pt white;
 }
 
+/* Invert image colors, give them a transparent background, then lighten them by the page background color */
 img {
 	filter: invert(1);
 	mix-blend-mode: lighten;
 	background-color: transparent;
 }
 
+/* Can't remember what this is for, and it shouldn't be necessary? */
 body {
 	background-color:#36393f;
 }
 
+/* Icon menu bar */
 #fixedawesome {
 	background-color: #36393f;
+}
+
+/* Hover text for icon menu bar */
+#awesomedesc {
+	background-color: #36393f !important;
+	border-color: white !important;
+}
+
+
+/* This is all the stuff mafia put in this file by default and I don't want to screw with it yet */
+#monname {
+	font-weight: bold;
 }
 
 a.error {
