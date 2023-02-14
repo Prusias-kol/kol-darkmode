@@ -42,6 +42,11 @@ a:not(.player), a>b:not(.player), a:active:not(.player), a:link:not(.player), a:
 	color: #1ea4f4 !important;
 }
 
+/* black color for players hard to read */
+a.player[style="color: black;"] {
+	color: #589bc4 !important;
+}
+
 /* Make all chat tab text backgrounds transparent by default */
 #tabs li {
 	background-color: transparent !important;
