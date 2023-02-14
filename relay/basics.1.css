@@ -38,7 +38,7 @@ button.button, input.button {
 }
 
 /* Color for links */
-a, a>b, a:active, a:link, a:visited {
+a:not(.player), a>b:not(.player), a:active:not(.player), a:link:not(.player), a:visited:not(.player) {
 	color: #1ea4f4 !important;
 }
 
