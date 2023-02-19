@@ -1,3 +1,3 @@
 # kol-darkmode
 ```
-git checkout JamesDowney/kol-darkmode
+git checkout Prusias-kol/kol-darkmode
