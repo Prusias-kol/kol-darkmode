@@ -34,7 +34,7 @@ button.button, input.button {
 
 /* make text in "black" classes white */
 .black {
-	color: white;
+	color: #EEEEEE;
 }
 
 /* Color for links */
@@ -71,7 +71,7 @@ div#description span[style="display: block; font-weight: bold;text-align: center
 /* Combat action bar */
 p.rcm {
 	background-color: black;
-	border: solid 1pt white;
+	border: solid 1pt ghostwhite;
 }
 
 /* Invert image colors, give them a transparent background, then lighten them by the page background color */
@@ -94,7 +94,7 @@ body {
 /* Hover text for icon menu bar */
 #awesomedesc {
 	background-color: #36393f !important;
-	border-color: white !important;
+	border-color: ghostwhite !important;
 }
 
 
